@@ -108,7 +108,7 @@ footer h4{
 
 .sadrzaj{
     background-color: #af1462;
-    height: 1013px;
+    height: 785px;
 }
 
 img{
@@ -161,8 +161,8 @@ img{
 .rad1{
     position: absolute;
     top: 75px;
-    left: 200px;
-    height: 300px;
+    left: 50px;
+    height: 200px;
     width: 300px;
     border: solid 3px black;
     background-image: url(macka.png);
@@ -176,17 +176,17 @@ img{
     align-items: center;
     position: absolute;
     top: 75px;
-    left: 700px;
-    height: 300px;
+    left: 400px;
+    height: 200px;
     width: 800px;
     text-align: center;
 }
 
 .rad2{
     position: absolute;
-    top: 410px;
+    top: 350px;
     right: 100px;
-    height: 300px;
+    height: 200px;
     width: 300px;
     border: solid 3px black;
     background-image: url(macka.png);
@@ -199,18 +199,18 @@ img{
     display: flex;
     align-items: center;
     position: absolute;
-    top: 410px;
-    left: 200px;
-    height: 300px;
+    top: 350px;
+    left: 50px;
+    height: 200px;
     width: 800px;
     text-align: center;
 }
 
 .rad3{
     position: absolute;
-    top: 740px;
-    left: 200px;
-    height: 300px;
+    top: 600px;
+    left: 50px;
+    height: 200px;
     width: 300px;
     border: solid 3px black;
     background-image: url(macka.png);
@@ -224,15 +224,15 @@ img{
     align-items: center;
     justify-content: center;
     position: absolute;
-    top: 740px;
+    top: 600px;
     right: 100px;
-    height: 300px;
+    height: 200px;
     width: 800px;
     text-align: center;
 }
 
 p{
-    font-size: 20px;
+    font-size: 18px;
     font-family: "Audiowide", sans-serif;
     font-weight: 100;
 }
