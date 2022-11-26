@@ -1,0 +1,244 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: bisque;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    background-color: black;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.menu{
+    position: relative;
+    right: 100px;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu button{
+    background: transparent;
+    margin-right: 20px;
+    border: wheat;
+    height: 3rem;
+    width: 300px;
+}
+
+.home{
+    position: relative;
+    left: 30px;
+}
+
+.menu button a{
+    font-family: "Audiowide", sans-serif;
+    text-decoration: none;
+    font-size: 25px;
+    color: #af1462;
+}
+
+.logo{
+    position: absolute;
+    left: 100px;
+}
+
+.logo h2{
+    font-family: "Audiowide", sans-serif;
+    text-decoration: none;
+    font-size: 25px;
+    color: #af1462;
+}
+
+footer{
+    margin-top: auto;
+    background-color: black;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+}
+
+.crtica{
+    height: 4rem;
+    width: 5px;
+    background-color: #af1462;
+    position: absolute;
+    left: 300px;
+}
+
+.fa{
+    position: relative;
+    left: 320px;
+    margin-left: 20px;
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.fa-instagram {
+    background: #af1462;
+    color: white;
+}
+
+footer h3{
+    font-family: "Audiowide", sans-serif;
+    color: #af1462;
+    font-weight: 100;
+    font-size: larger;
+    position: relative;
+    left: 350px;
+}
+
+footer h4{
+    color: #af1462;
+    position: absolute;
+    right: 50px;
+}
+
+.sadrzaj{
+    background-color: #af1462;
+    height: 1013px;
+}
+
+img{
+    border: solid 3px yellow;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 35%;
+    left: 10%;
+}
+
+.sadrzaj h2{
+    position: absolute;
+    top: 48%;
+    left: 60%;
+    font-weight: 100;
+    font-size: 40px;
+    font-family: "Audiowide", sans-serif;
+}
+
+.boja{
+    color: yellow !important;
+}
+
+.boja h2{
+    color: yellow;
+}
+
+.color{
+    background-color: yellow;
+}
+
+.bojaDva{
+    color: goldenrod !important;
+}
+
+.bojaDva h2{
+    color: goldenrod;
+}
+
+.colorDva{
+    background-color: goldenrod;
+}
+
+.works{
+    display: flex;align-items: center;
+    justify-content: center;
+}
+
+.rad1{
+    position: absolute;
+    top: 75px;
+    left: 200px;
+    height: 300px;
+    width: 300px;
+    border: solid 3px black;
+    background-image: url(macka.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.tekst1{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 75px;
+    left: 700px;
+    height: 300px;
+    width: 800px;
+    text-align: center;
+}
+
+.rad2{
+    position: absolute;
+    top: 410px;
+    right: 100px;
+    height: 300px;
+    width: 300px;
+    border: solid 3px black;
+    background-image: url(macka.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.tekst2{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 410px;
+    left: 200px;
+    height: 300px;
+    width: 800px;
+    text-align: center;
+}
+
+.rad3{
+    position: absolute;
+    top: 740px;
+    left: 200px;
+    height: 300px;
+    width: 300px;
+    border: solid 3px black;
+    background-image: url(macka.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.tekst3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 740px;
+    right: 100px;
+    height: 300px;
+    width: 800px;
+    text-align: center;
+}
+
+p{
+    font-size: 20px;
+    font-family: "Audiowide", sans-serif;
+    font-weight: 100;
+}
+
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
